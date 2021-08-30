@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{5d08aa3f-ddf7-44f3-8e69-fe80cee8fbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{a09cf15c-41a6-4bc4-b9c1-5db2f6fd25a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maths">
+      <UniqueIdentifier>{447a0c74-b01f-4419-b612-be1799622732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e5776987-d7c2-4a72-bb16-bcaf4b938458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{74afba54-9c50-4863-b23f-4d7b7b69b2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{93c8e813-72b8-49f7-bb39-dde4bfef83da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreGex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="JoyStick.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitConv.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritesR.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInfo.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpher.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="JoyStick.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritesR.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
